@@ -1,0 +1,72 @@
+/* globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+.grostore_blog_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 1rem;
+  background-color: #f3f4f6; /* Light gray background */
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem; /* Adjust as needed */
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+.return-to-shop {
+  text-align: center;
+}
+
+.return-to-shop .button {
+  background-color: #0073e6;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.return-to-shop .button:hover {
+  background-color: #005bb5;
+}
+
+.wc-empty-cart-message {
+  text-align: center;
+  padding: 2rem;
+}
+
+.wc-block-components-notice-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e3f6ff;
+  padding: 1rem;
+  border-radius: 4px;
+}
+
+.wc-block-components-notice-banner svg {
+  margin-right: 1rem;
+}
+
+.wc-block-components-notice-banner__content {
+  font-size: 1rem;
+  color: #333;
+}
+
+.bg-white {
+  background-color: #ffffff; /* White background without shadow */
+}
+
+.max-w-3xl {
+  max-width: 48rem; /* Adjust based on your design requirements */
+}

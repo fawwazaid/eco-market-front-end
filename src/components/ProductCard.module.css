@@ -1,0 +1,81 @@
+.verticalProductCard {
+  border-radius: 0.5rem;
+  position: relative;
+  background-color: #ffffff;
+  border: 1px solid #eaeaea;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  max-height: 400px; /* Ensure all cards have the same height */
+}
+
+.verticalProductCard:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.thumbnail {
+  position: relative;
+  text-align: center;
+}
+
+.featureImg {
+  width: 100%;
+  height: auto;
+}
+
+.offerBadge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #dc3545;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.cardContent {
+  padding: 1rem;
+  text-align: center;
+  flex-grow: 1; /* Ensures content takes up remaining space */
+}
+
+.productName {
+  font-weight: bold;
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+  display: block;
+  text-decoration: none;
+}
+
+.price {
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.oldPrice {
+  margin-right: 0.5rem;
+  color: #999;
+  text-decoration: line-through;
+}
+
+.newPrice {
+  color: #dc3545;
+}
+
+.addToCartButton {
+  background-color: #ff6a00;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-size: 0.875rem;
+  transition: background-color 0.3s ease;
+  margin-top: auto; /* Push button to the bottom of the card */
+}
+
+.addToCartButton:hover {
+  background-color: #e65c00;
+}
